@@ -1,4 +1,4 @@
-FROM cirrusci/flutter:2.10.5
+FROM cirrusci/flutter:3.16.2
 
 USER root
 
