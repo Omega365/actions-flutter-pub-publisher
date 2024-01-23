@@ -2,6 +2,9 @@
 
 This action publishing the Flutter plugin.
 
+## Update Flutter Version
+Use this repo to find the latest Flutter version available for Docker: https://github.com/cirruslabs/docker-images-flutter
+
 ## Inputs
 
 ### `credential`
