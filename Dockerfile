@@ -1,4 +1,4 @@
-FROM ghcr.io/cirruslabs/flutter:3.16.9
+FROM ghcr.io/cirruslabs/flutter:3.22.0
 
 USER root
 
