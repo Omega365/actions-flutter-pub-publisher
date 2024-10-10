@@ -64,8 +64,9 @@ dry_run() {
 }
 
 publish_package() {
-  dry_run
-  if [ "${INPUT_DRY_RUN}" = false ]; then
+  if [ "${INPUT_DRY_RUN}" = true ]; then
+    dry_run
+  else
     echo "Publish package to Pub"
     $EXECUTABLE_PREFIX pub publish -f
   fi
